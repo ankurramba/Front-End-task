@@ -1,0 +1,44 @@
+@media only screen and (max-width:1024px){
+    .firstHalf,.secondHalf,.thirdHalf{
+
+        
+        margin: 0px 16px;
+        
+        
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:768px){
+
+.firstHalf, .secondHalf, .thirdHalf{
+    width: 100%;
+    margin: 0;
+
+}
+
+.secondHalf, .thirdHalf{
+ 
+    margin-top: 20px;
+
+}
+
+.inputform {
+    width: 95%;
+}
+
+
+.box-main {
+    
+    padding: 15px 10px;
+    
+}
+
+#notes,#notes1,#notes2{
+    padding: 15px;
+}
+
+}

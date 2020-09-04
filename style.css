@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+    body{
+        background-color: rgb(219, 219, 216);
+    
+        
+    }
+
+
+.navbar{
+    
+    top:0;
+    cursor: pointer;
+    background-color: rgb(61, 58, 61);
+  
+    
+}
+
+.nav-list{
+    
+    display: flex;
+    
+}
+
+.nav-list li{
+   
+    list-style: none;
+    padding: 12px 14px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(248, 237, 237);
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+
+.nav-list li a:hover{ 
+    color: rgb(187, 175, 175);
+}
+
+.box-main{
+    display: flex;
+    color: rgb(59, 54, 54);
+    max-width: 100%;
+    padding: 38px 10px;
+    flex-wrap: wrap;
+    
+}
+
+.firstHalf,.secondHalf,.thirdHalf{
+    
+    width: 30%;
+    margin: 0px 20px;
+    background: #eee;
+    
+}
+
+
+.card1{
+    padding: 0px 15px;
+}
+
+.card-heading{
+    padding: 6px 0px;
+    font-size: 24px;
+    border-bottom: 2px solid black;
+    font-family: monospace;
+}
+h5{
+    padding: 6px 0px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+}
+
+input,textarea{
+    width: 100%;
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 4px;
+    
+}
+
+#notes,#notes1,#notes2{
+    padding: 15px;
+}
+
+
+.btn{
+    padding: 5px 9px;
+    margin: 7px 4px;
+    border: 2px solid rgb(95, 91, 91);
+    border-radius: 23px;
+    background: none;
+    color: rgb(61, 59, 59);
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    
+}
+
+.btn:hover{ 
+    color: rgb(161, 48, 48);
+}
+
+.addBtn{
+    width: 150px;
+    margin: 10px auto;
+    display: block;
+}
+
+.deletebtn{
+    float: right;
+    width: 110px;
+}
+.inputform{
+    width: 80%;
+   
+}
+
+.draggable, .draggable1,.draggable2{
+   
+    margin:4px 2px;   
+    border-radius: 12px; 
+    background-color: white; 
+    overflow: hidden; 
+    border: 2px solid black;
+}
+
